@@ -1,0 +1,33 @@
+{
+  "name": "user-clerk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Den-Kov59/test-clerk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Den-Kov59/test-clerk/issues"
+  },
+  "homepage": "https://github.com/Den-Kov59/test-clerk#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@clerk/clerk-sdk-node": "^4.13.11",
+    "@clerk/fastify": "^0.6.36",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3"
+  }
+}
